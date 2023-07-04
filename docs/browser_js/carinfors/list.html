@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commons JS</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container-fluid">
+    <!-- 위 단 -->
+    <div class="row bg-dark text-white">
+      <div class="col">
+        <button class="btn btn-link text-white">Logo</button>
+        <button class="btn btn-link text-white">Home</button>
+        <button class="btn btn-link text-white">About</button>
+        <button class="btn btn-link text-white">Contact</button>
+      </div>
+    </div>
+
+    <!-- 본문 단 -->
+    <div class="row bg-white">
+      <div class="col">
+        <p class="text-black">Search</p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button">Go</button>
+          </div>
+        </div>
+        <p class="text-black">Table</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">YEAR</th>
+              <th scope="col">CAR_NAME</th>
+              <th scope="col">CAR_INFOR_ID</th>
+              <th scope="col">COMPANY_ID</th>
+            </tr>
+          </thead>
+
+
+          <tbody id="CarInfor_loops"> 
+          </tbody>
+          
+          
+        </table>
+        <button class="btn btn-light border-dark text-black">Previous</button>
+        <button class="btn btn-light border-dark text-primary">1</button>
+        <button class="btn btn-light border-dark text-primary">2</button>
+        <button class="btn btn-light border-dark text-primary">3</button>
+        <button class="btn btn-light border-dark text-black">Next</button>
+      </div>
+    </div>
+
+    <!-- 아래 단 -->
+    <div class="row footer">
+      <div class="col">
+        ⓒ 2023 Your Website. 고구마 맛있음 🦕
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/list.js"></script>
+</html>
